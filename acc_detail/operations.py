@@ -8,7 +8,7 @@ from algosdk import account, encoding
 from pyteal import compileTeal, Mode
 
 from .user_account import Account
-from .contracts import approval_program, clear_state_program
+from .algo_contracts import approval_program, clear_state_program
 from .util import (
     waitForTransaction,
     fullyCompileContract,
