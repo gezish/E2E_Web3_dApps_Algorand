@@ -7,8 +7,8 @@ from algosdk.logic import get_application_address
 
 from .operations import createAuctionApp, setupAuctionApp, placeBid, closeAuction
 from .util import getBalances, getAppGlobalState, getLastBlockTimestamp
-from .testing.setup import getAlgodClient
-from .testing.resources import getTemporaryAccount, optInToAsset, createDummyAsset
+from .scripts.setup import getAlgodClient
+from .scripts.resources import getTemporaryAccount, optInToAsset, createDummyAsset
 
 
 def test_create():
