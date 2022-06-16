@@ -106,7 +106,7 @@ def createDummyAsset(client: AlgodClient, total: int, account: Account = None) -
         clawback=account.getAddress(),
         unit_name=f"D{randomNumber}",
         asset_name=f"Dummy {randomNumber}",
-        url=f"https://dummy.asset/{randomNumber}",
+        url=f"https://www.10academy.org/{randomNumber}",
         note=randomNote,
         sp=client.suggested_params(),
     )
