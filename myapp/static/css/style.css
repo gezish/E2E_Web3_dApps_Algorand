@@ -1,7 +1,7 @@
 body {
     margin: 0;
     font-family: helvetica;
-    color: rgb(41, 145, 243);
+    color: black;
 }
 
 .container {
@@ -42,4 +42,16 @@ input[type=submit]:hover {
     background-color: darkslategrey;
     color: white;
     cursor: pointer;
+}
+
+table {
+    text-align: left;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+th, td {
+    border-bottom: 1px solid lightgrey;
+    padding: 4px;
+    padding-right: 16px;
 }
