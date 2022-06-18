@@ -1,4 +1,5 @@
 # End to End Web3_dApps using Algorand Blockchain
+![prof](https://user-images.githubusercontent.com/99503155/174454457-0eb33553-371f-47d4-9890-314cbb2c8ff5.png)
 ## Objective
 Thamin Objective of this project is to build end-to-end Web3 dapps on Algorand Blockchain that will help `10 Academy` generate and distribute Non-Fungible Tokens (NFTs) certificates that will represent the successful completion of a weekly challenge to trainees, and allow trainees with NFTs to interact with a smart contract to perform pre-defined actions.  
 
