@@ -3,6 +3,13 @@ from flask_wtf import FlaskForm
 from wtforms import DecimalField, StringField, SubmitField
 from wtforms.validators import InputRequired, Optional, Length, NumberRange
 
+
+class LoginForm(FlaskForm):
+    """Form for logging into an account"""
+    passphrase = StringField('25-word Passphrase', validators=[InputRequired()])
+    submit = SubmitField('Login')
+
+    
 class SendForm(FlaskForm):
     """Form for creating a transaction"""
     quantity = DecimalField(
